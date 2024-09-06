@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(30, 37, 43, 1);
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul, li {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  color: white
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  display: flex;
+  width: 100dvw;
+  height: 100dvh;
+  padding-inline: 8dvw;
+}
+
